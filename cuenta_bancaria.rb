@@ -31,8 +31,8 @@ class CuentaBancaria
 
     #Crear un método llamado numero_de_cuenta que devuelva con el número de cuenta con un prefijo '1-' si es vip y '0-' si no lo es. Ejemplo: si la cuenta es VIP y el número 00112233, el método debería devolver '1-00112233'
 
-    def numero_de_cuenta
-
+    def numeroDeCuenta
+        
         stringVip = "1-"
         stringNoVip = "0-"
         cuenta = self.numero_de_cuenta.to_s
