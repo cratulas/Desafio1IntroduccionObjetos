@@ -15,7 +15,7 @@ class Carta
             @numero = numero
             @pinta = pinta
         else
-            raise ArgumentError.new("falta el argumento")
+            raise ArgumentError.new("El numero no está en el rango o la pinta no es valida")
 
         end
     end
